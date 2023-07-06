@@ -1,0 +1,23 @@
+
+Note: all body sections compare qualifications by co-ed/single sex boys
+I intend to include a table and stacked bar chart for each body section.
+
+CONTENTS
+
+INTRO
+Project overview
+Definitions
+Summary
+
+BODY
+Overview
+Retention to 17   (optional)
+Over time
+By decile
+By island         (optional)
+By ethnicity      (optional)
+By subject        (optional)
+Single-sex women  (optional)
+
+CONCLUSION
+Summary

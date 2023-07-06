@@ -1,0 +1,29 @@
+
+PLANNING                  >   5.0 h
+Project overview              2.0 h
+Collating resources           0.5 h
+Report structure              2.0 h
+Report format                 0.5 h
+
+GRAPHICS                  >   6.0 h
+Data manipulation             3.0 h
+Rendering functions           3.0 h
+
+BODY SECTIONS (assume 6)  >   9.0 h (90 min per section)
+Creating tables               1.0 h (10 min per section)
+Creating graphs               1.0 h (10 min per section)
+2x captions                   0.5 h (5 min per section)
+Introduction                  3.0 h (30 min per section)
+Figure description            3.0 h (30 min per section)
+Proofing                      0.5 h (5 min per section)
+
+NON-BODY SECTIONS         > 	3.5 h
+Contents                      0.5 h
+Overview                      0.5 h
+Summary                       1.0 h
+Conclusion                    0.5 h
+Proofing                      1.0 h
+
+
+TOTAL                     >>  23.5 h
+IN REALITY                >>  Much more (but it was fun so that's okay)

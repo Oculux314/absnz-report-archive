@@ -1,0 +1,135 @@
+
+Report for the Association of Boys' Schools in New Zealand.
+Started:        27-01-2023
+Deadline:       31-03-2023
+Author:         nate.williamson.nz@gmail.com
+Supervisor:     rog@westlake.school.nz
+
+Timespan:       2017 - 2021
+Prev reports:   http://www.absnz.co.nz/research.html
+Data from:      https://www.educationcounts.govt.nz/statistics/school-leavers (obtained 27-01-2023)
+MATLAB ver:     R2022b
+
+---
+
+27 Jan    Introuctory meeting, project assigned.
+
+28 Jan    Data is 'by student' rather than 'by school' - more data requested.
+
+31 Jan    Created timing and structure plans. Structure significantly deviates from 2016 report to be more structured.
+          Qualifications by year now has its own section rather than being part of every other section.
+          Assessment format data no longer available.
+          All other data and main categories preserved.
+
+04 Feb    Official offer to create report accepted.
+
+09 Feb    Programming began.
+
+15 Feb    Report formatting set.
+
+16 Feb    Data manipulation: (Prim.Co-Ed, Sec.Girls) --> (Single Sex), (Sen.Co-Ed, Jun.Boys) --> (Co-Ed), Unknown excluded.
+          Note: males who attended female single-sex schools are included, females who attended male single-sex schools are excluded.
+          Rationale: student sex is the only way to filter for boys in co-ed schools and this filter should be matched for single-sex schools to avoid bias.
+          Downloaded MATLAB plugin: plotBarStackGroups (https://au.mathworks.com/matlabcentral/fileexchange/32884-plot-groups-of-stacked-bars). License in MATLAB folder. Modified.
+          
+19 Feb    Completed data manipulation programming aspect.
+          Downloaded 'AyoQujzf3EEq8G.jfif' from https://sway.office.com/LiQKXrnES1ezq9Kl?ref=Link for colour scheme. Colours are:
+            White   #ffffff
+            Yellow  #fe8b2e
+            Blue    #2190be
+            Red     #f02538 (text)
+            Purple  #1b1d4d (background)
+            
+20 Feb    Graphing functions complete excluding table formatting.
+          First graphs generated.
+          Data validation required.
+          Note: label order cannot be changed.
+          Sample graph produced and sent.
+
+21 Feb    Sample graph approved.
+
+27 Feb    'By school' data refused by Education Counts - instructed to proceed with 'by student' data.
+
+05 Mar    Overview handling code completed.
+          Tables now export ready-to-paste.
+          All assets ready.
+          
+07 Mar    Report writeup began.
+          Provisional sections:
+            Introduction
+            Overview
+            Disaggregated by Year
+            Disaggregated by Quintile
+            Disaggregated by Ethnicity
+
+12 Mar    Performed data validation. Failed: sigma values were not accounted for.
+          It appears that to save file space, Education Counts has aggregated identical rows into the same row, then added a 'sigma value' to record how many rows were aggregated.
+          Sigma issue patched.
+          Performed data validation. Passed: matches Education Counts graphs.
+          Introduction complete, excluding summary.
+          
+14 Mar    Progress report sent to ROG.
+          Reply recieved.
+
+15 Mar    Made decision to invert bar stack order from [UE (base) --> No Qual (top)] to [No Qual (base) --> UE (top)]
+            Decision rationale:
+              - New order aligns with table order to avoid confusion
+              - New order allows the total no. school leavers who attained a qualification to be shown
+                (not just how many attained that as their highest qualification)
+            Note that MATLAB forces the legend entry order to be opposite bar stack order and this cannot be changed.
+          Fixed bug: using ethnicity datasets in quintile table/figure calculations.
+          Implemented printing n values.
+          Created definitions subcategory.
+          Finished Overview section draft.
+          Imported tables/figures into report document, with captions.
+          
+16 Mar    Sent copy of report writeup to ROG.
+          Reply recieved -> implemented feedback.
+          
+20 Mar    Progress report - intent to finish by Mon 27 Mar in time for review.
+          Note that coming week is busy.
+          
+22 Mar    Blocked out weekend (25-26 Mar) for report writeup.
+          
+24 Mar    Progress report.
+
+25 Mar    Completed year disaggregation section.
+          Updated table 2 (year).
+          Small overall formatting changes.
+          Overview name changed to 'binary comparison'.
+
+26 Mar    Added description of the 'single-sex advantage' to introduction.
+          Completed quintile disaggregation section.
+          Implemented method to force counts (not percentages) to be graphed from the MATLAB Tally() function.
+          Renamed file to 'Achievement In Boys Schools 2017 - 2021.docx'
+          Added subheadings and updated contents table.
+          Halfway through ethnicity disaggregation section.
+          
+27 Mar    Sent progress report in morning with report and log attached.
+          Feedback recieved.
+            Changed quintile -> decile in report.
+            Additive and multiplicative differences explained more.
+          Changed school gender --> school type in report.
+          Figure labels refactored to match report.
+            Quintile -> decile.
+            School gender -> school type.
+            Single sex -> single-sex.
+          Completed ethnicity disaggregation section.
+          Completed introduction summary.
+          
+28 Mar    Completed conclusion.
+          Checks:
+            Checks completed:
+              Grammar and correctness (Grammarly).
+              Report format and structure (refresh dynamic fields, search results for []).
+              Data check (figures and tables match MATLAB clean execution output).
+              Code check (check analysis is correct with Education Counts website).
+            Checks incomplete:
+              Overview (read entire document with third party).
+              Code check (produce test scripts).
+          Will begin versioning reports for review process.
+          Report version 1 complete - sent to ROG.
+          
+29 Mar    Confirmation recieved - formal delivery scheduled 05 Apr 2023.
+          
+05 Apr    Meeting at WBHS - project formally concluded.

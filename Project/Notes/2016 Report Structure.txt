@@ -1,0 +1,56 @@
+
+T Table
+W Box-and-whisker plot
+B Stacked bar chart
+
+
+INTRO
+Overview
+Summary
+Interpretation
+Thanks
+
+CO-ED VS SINGLE SEX BOYS'
+Qualifications by year          T
+Scholarships by year            T
+UE by year/decile
+  All                           T
+  D 1-4                         W
+  D 5-6                         W
+  D 7-8                         W
+  D 9-10                        W
+
+BY DECILE
+Lvl2+ by year/decile
+  All                           T
+  D 1-4                         W
+  D 5-6                         W
+  D 7-8                         W
+  D 9-10                        W
+No qual. by year/decile
+  All                           T
+  D 1-4                         W
+  D 5-6                         W
+  D 7-8                         W
+  D 9-10                        W
+
+BY ETHNICITY
+Overview
+Qual. by ethnicity (2016)       T
+Socio-economic confounding
+UE by ethnicity/decile          T
+Lvl2+ by ethnicity/decile       T
+No qual. by ethnicity/decile    T
+
+BY ASSESSMENT TYPE
+Overview
+Internal vs external
+Type by decile
+  Lvl1                          B
+  Lvl2                          B
+  Lvl3                          B
+
+SUMMARY
+UE by decile                    W
+Lvl2+ by decile                 W
+No qual. by decile              W
